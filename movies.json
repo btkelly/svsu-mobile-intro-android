@@ -1,0 +1,26 @@
+[
+  {
+    "director" : "Frank Darabont",
+    "genre" : "Drama",
+    "runtime" : 142,
+    "stars" : [
+      "Tim Robbins",
+      "Morgan Freeman",
+      "Bob Gunton"
+    ],
+    "title" : "The Shawshank Redemption",
+    "year" : 1994
+  },
+  {
+    "director" : "Francis Ford Coppola",
+    "genre" : "Drama",
+    "runtime" : 175,
+    "stars" : [
+      "Marlon Brando",
+      "Al Pacino",
+      "James Caan"
+    ],
+    "title" : "The Godfather",
+    "year" : 1972
+  }
+]
