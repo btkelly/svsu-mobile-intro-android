@@ -24,12 +24,13 @@ public class MoviesAdapter extends ArrayAdapter<Movie> {
 			convertView = inflater.inflate(android.R.layout.simple_list_item_2, null); 
 		}
 		
-		ViewGroup group = (ViewGroup) convertView;
-		
 		Movie movie = getItem(position);
+
+		TextView movieTitle = (TextView)convertView.findViewById(android.R.id.text1);
+		TextView movieInfo = (TextView)convertView.findViewById(android.R.id.text2);
 		
-		((TextView)group.findViewById(android.R.id.text1)).setText(movie.getTitle());
-		((TextView)group.findViewById(android.R.id.text2)).setText(movie.getYear() + ", Dir: " + movie.getDirector());
+		movieTitle.setText(movie.getTitle());
+		movieInfo.setText(movie.getYear() + ", Dir: " + movie.getDirector());
 		
 		return convertView;
 	}

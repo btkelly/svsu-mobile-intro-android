@@ -31,14 +31,18 @@ public class MovieListActivity extends ListActivity implements OnItemClickListen
         
         MoviesAdapter adapter = new MoviesAdapter(this, movies);
         setListAdapter(adapter);
+        
+        //Set item click listener on the ListView. Our activity implements the OnItemClickListener so we pass this as the listener.
         getListView().setOnItemClickListener(this);
     }
 
 	@Override
-	public void onItemClick(AdapterView<?> parent, View view, int postion, long id) {
+	public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 		
-		Movie selectedMovie = (Movie) getListAdapter().getItem(postion);		
+		//Get the Movie object that represents the row that was clicked in the ListView
+		Movie selectedMovie = (Movie) parent.getItemAtPosition(position);		
 
+		//Create an Intent to launch the MovieDetailsActivity activity and add the selectedMovie as an extra
 		Intent showDetails = new Intent(this, MovieDetailsActivity.class);
 		showDetails.putExtra("movie", selectedMovie);
 		startActivity(showDetails);

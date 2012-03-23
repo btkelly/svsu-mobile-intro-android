@@ -16,6 +16,7 @@ public class MovieListActivity extends ListActivity {
         List<Movie> movies = null;
         
         try {
+        	//Get movies using the utility class MoviesFetcher
 			movies = MoviesFetcher.getMovies(this);
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -23,6 +24,7 @@ public class MovieListActivity extends ListActivity {
 			return;
 		}
         
+        //List movies in the log
         Log.i("SVSUDemo", movies.toString());
     }
 }

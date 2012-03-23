@@ -25,7 +25,10 @@ public class MovieListActivity extends ListActivity {
         
         Log.i("SVSUDemo", movies.toString());
         
+        //Create a new adapter passing the context of the activity and the list of movies to the constructor
         MoviesAdapter adapter = new MoviesAdapter(this, movies);
+        
+        //Set the adapter of the ListView to the MoviesAdapter
         setListAdapter(adapter);
     }
 }
