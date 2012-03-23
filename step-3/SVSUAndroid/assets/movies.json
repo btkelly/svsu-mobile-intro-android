@@ -22,5 +22,204 @@
     ],
     "title" : "The Godfather",
     "year" : 1972
+  },
+  {
+    "director" : "Quentin Tarantino",
+    "genre" : "Thriller",
+    "runtime" : 154,
+    "stars" : [
+      "John Travolta",
+      "Samuel L. Jackson",
+      "Bruce Willis",
+      "Uma Thurman"
+    ],
+    "title" : "Pulp Fiction",
+    "year" : 1994
+  },
+  {
+    "director" : "Sergio Leone",
+    "genre" : "Adventure",
+    "runtime" : 161,
+    "stars" : [
+      "Clint Eastwood",
+      "Eli Wallach",
+      "Lee Van Cleef"
+    ],
+    "title" : "The Good, the Bad and the Ugly",
+    "year" : 1966
+  },
+  {
+    "director" : "Christopher Nolan",
+    "genre" : "Action",
+    "runtime" : 152,
+    "stars" : [
+      "Christian Bale",
+      "Heath Ledger",
+      "Aaron Eckhart",
+      "Michael Caine",
+      "Morgan Freeman",
+      "Gary Oldman"
+    ],
+    "title" : "The Dark Knight",
+    "year" : 2008
+  },
+  {
+    "director" : "David Fincher",
+    "genre" : "Drama",
+    "runtime" : 139,
+    "stars" : [
+      "Edward Norton",
+      "Brad Pitt",
+      "Helena Bonham Carter"
+    ],
+    "title" : "Fight Club",
+    "year" : 1999
+  },
+  {
+    "director" : "Christopher Nolan",
+    "genre" : "Action",
+    "runtime" : 148,
+    "stars" : [
+      "Leonardo DiCaprio",
+      "Joseph Gordon-Levitt",
+      "Ellen Page"
+    ],
+    "title" : "Inception",
+    "year" : 2010
+  },
+  {
+    "director" : "Martin Scorsese",
+    "genre" : "Crime",
+    "runtime" : 146,
+    "stars" : [
+      "Robert De Niro",
+      "Ray Liotta",
+      "Joe Pesci"
+    ],
+    "title" : "Goodfellas",
+    "year" : 1990
+  },
+  {
+    "director" : "Michael Curtiz",
+    "genre" : "Drama",
+    "runtime" : 102,
+    "stars" : [
+      "Humphrey Bogart",
+      "Ingrid Bergman",
+      "Paul Henreid"
+    ],
+    "title" : "Casablanca",
+    "year" : 1942
+  },
+  {
+    "director" : "Andy Wachowski",
+    "genre" : "Action",
+    "runtime" : 136,
+    "stars" : [
+      "Keanu Reeves",
+      "Laurence Fishburne",
+      "Carrie-Anne Moss"
+    ],
+    "title" : "The Matrix",
+    "year" : 1999
+  },
+  {
+    "director" : "Jonathan Demme",
+    "genre" : "Thriller",
+    "runtime" : 118,
+    "stars" : [
+      "Jodie Foster",
+      "Anthony Hopkins",
+      "Lawrence A. Bonney"
+    ],
+    "title" : "The Silence of the Lambs",
+    "year" : 1991
+  },
+  {
+    "director" : "Bryan Singer",
+    "genre" : "Crime",
+    "runtime" : 106,
+    "stars" : [
+      "Kevin Spacey",
+      "Gabriel Byrne",
+      "Chazz Palminteri",
+      "Stephen Baldwin",
+      "Benicio Del Toro"
+    ],
+    "title" : "The Usual Suspects",
+    "year" : 1995
+  },
+  {
+    "director" : "David Fincher",
+    "genre" : "Crime",
+    "runtime" : 127,
+    "stars" : [
+      "Morgan Freeman",
+      "Brad Pitt",
+      "Kevin Spacey"
+    ],
+    "title" : "Se7en",
+    "year" : 1995
+  },
+  {
+    "director" : "Robert Zemeckis",
+    "genre" : "Drama",
+    "runtime" : 142,
+    "stars" : [
+      "Tom Hanks",
+      "Robin Wright",
+      "Gary Sinise",
+      "Sally Field"
+    ],
+    "title" : "Forrest Gump",
+    "year" : 1994
+  },
+  {
+    "director" : "Frank Capra",
+    "genre" : "Drama",
+    "runtime" : 130,
+    "stars" : [
+      "James Stewart",
+      "Donna Reed",
+      "Lionel Barrymore"
+    ],
+    "title" : "It's a Wonderful Life",
+    "year" : 1946
+  },
+  {
+    "director" : "Christopher Nolan",
+    "genre" : "Drama",
+    "runtime" : 113,
+    "stars" : [
+      "Guy Pearce",
+      "Carrie-Anne Moss",
+      "Joe Pantoliano"
+    ],
+    "title" : "Memento",
+    "year" : 2000
+  },
+  {
+    "director" : "Francis Ford Coppola",
+    "genre" : "War",
+    "runtime" : 153,
+    "stars" : [
+      "Martin Sheen",
+      "Marlon Brando",
+      "Robert Duvall"
+    ],
+    "title" : "Apocalypse Now",
+    "year" : 1979
+  },
+  {
+    "director" : "Tony Kaye",
+    "genre" : "Drama",
+    "runtime" : 119,
+    "stars" : [
+      "Edward Norton",
+      "Edward Furlong",
+      "Beverly D'Angelo"
+    ],
+    "title" : "American History X",
+    "year" : 1998
   }
 ]
